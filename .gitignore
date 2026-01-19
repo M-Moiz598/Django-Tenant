@@ -1,0 +1,86 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# ================================
+# Django
+# ================================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django static & media (optional)
+staticfiles/
+media/
+
+# Django migrations (optional – uncomment if you don't want them tracked)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# DRF / Django Cache & Sessions
+# ================================
+.cache/
+celerybeat-schedule
+celerybeat.pid
+
+# ================================
+# Testing / Coverage
+# ================================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ================================
+# IDEs & Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Build / Distribution
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Docker (optional)
+# ================================
+*.pid
+docker-compose.override.yml
