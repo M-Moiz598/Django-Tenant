@@ -1,86 +1,60 @@
-# ================================
 # Python
-# ================================
-__pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# ================================
-# Virtual Environments
-# ================================
-venv/
-env/
-ENV/
-.venv/
-.virtualenv/
-
-# ================================
 # Django
-# ================================
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+/media
+/staticfiles
+/static
 
-# Django static & media (optional)
-staticfiles/
-media/
-
-# Django migrations (optional – uncomment if you don't want them tracked)
-# **/migrations/
-# !**/migrations/__init__.py
-
-# ================================
-# Environment Variables
-# ================================
+# Environment
 .env
-.env.*
-!.env.example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# ================================
-# DRF / Django Cache & Sessions
-# ================================
-.cache/
-celerybeat-schedule
-celerybeat.pid
-
-# ================================
-# Testing / Coverage
-# ================================
-.pytest_cache/
-.coverage
-coverage.xml
-htmlcov/
-.tox/
-
-# ================================
-# IDEs & Editors
-# ================================
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# ================================
-# OS Files
-# ================================
+*~
 .DS_Store
-Thumbs.db
 
-# ================================
-# Build / Distribution
-# ================================
-build/
-dist/
-*.egg-info/
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
 
-# ================================
-# Logs
-# ================================
-*.log
+# Celery
+celerybeat-schedule
+celerybeat.pid
 
-# ================================
-# Docker (optional)
-# ================================
+# Docker
 *.pid
-docker-compose.override.yml
